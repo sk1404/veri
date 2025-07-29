@@ -4,6 +4,7 @@ module d_ff(d_inter.design1 dut);
       dut.q <= 1'b0;
     else
       dut.q <= dut.d;
+     //if (0) begin logic dummy = 1; end // reduces line & branch coverage //for reducing coverage all remove command(//)
   end
 endmodule
  
